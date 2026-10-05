@@ -16,7 +16,7 @@ of each river segment and identifying connected downstream candidates.
 The workflow:
 
 1. Validates the active QGIS layer.
-2. Checks that `River_Id` values are unique.
+2. Checks that `River_Code` values are unique.
 3. Creates a metric working CRS.
 4. Extracts the downstream endpoint of each river segment.
 5. Builds a spatial index for efficient candidate searching.
@@ -40,7 +40,7 @@ No additional Python packages are required.
 The active QGIS layer must:
 
 - be a line layer
-- contain a unique `River_Id` field
+- contain a unique `River_Code` field
 - contain a `River_Name` field
 - have line direction representing:
 
