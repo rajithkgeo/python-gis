@@ -66,9 +66,9 @@ pip install -r requirements.txt
 Example:
 
 ```bash
-python extract_satellite_metadata.py "D:\Satellite_Data" "output\satellite_coordinates.xlsx" --config "config\example_metadata_aliases.json"
+python 1. extract_satellite_metadata.py 
 ```
-
+Specify your input, output and the config file path when popped up.
 The input folder can contain ZIP products or unpacked product folders.
 
 The extractor does **not** need to unpack ZIP files before reading the metadata.
@@ -94,20 +94,9 @@ Extraction_Status
 Recommended output:
 
 ```bash
-python create_footprints.py "output\satellite_coordinates.xlsx" "output\satellite_footprints.gpkg"
+python 2. create_footprints.py 
 ```
-
-GeoJSON:
-
-```bash
-python create_footprints.py "output\satellite_coordinates.xlsx" "output\satellite_footprints.geojson"
-```
-
-Shapefile:
-
-```bash
-python create_footprints.py "output\satellite_coordinates.xlsx" "output\satellite_footprints.shp"
-```
+Specify your input excel file and output file (with format .gpkg/.geojson/.shp) path when popped up.
 
 The footprint layer is written in **WGS 84 / EPSG:4326** because the input coordinate schema is geographic latitude/longitude.
 
