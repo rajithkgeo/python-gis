@@ -1,0 +1,18 @@
+{
+  "metadata_file_patterns": [
+    "*BAND_META.txt",
+    "*MTL.txt",
+    "*metadata*.txt",
+    "*meta*.txt"
+  ],
+  "corner_fields": {
+    "UL_Lat": ["ImageULLat", "UL_Lat", "UpperLeftLat", "Upper_Left_Lat", "CORNER_UL_LAT_PRODUCT"],
+    "UL_Lon": ["ImageULLon", "UL_Lon", "UpperLeftLon", "Upper_Left_Lon", "CORNER_UL_LON_PRODUCT"],
+    "UR_Lat": ["ImageURLat", "UR_Lat", "UpperRightLat", "Upper_Right_Lat", "CORNER_UR_LAT_PRODUCT"],
+    "UR_Lon": ["ImageURLon", "UR_Lon", "UpperRightLon", "Upper_Right_Lon", "CORNER_UR_LON_PRODUCT"],
+    "LR_Lat": ["ImageLRLat", "LR_Lat", "LowerRightLat", "Lower_Right_Lat", "CORNER_LR_LAT_PRODUCT"],
+    "LR_Lon": ["ImageLRLon", "LR_Lon", "LowerRightLon", "Lower_Right_Lon", "CORNER_LR_LON_PRODUCT"],
+    "LL_Lat": ["ImageLLLat", "LL_Lat", "LowerLeftLat", "Lower_Left_Lat", "CORNER_LL_LAT_PRODUCT"],
+    "LL_Lon": ["ImageLLLon", "LL_Lon", "LowerLeftLon", "Lower_Left_Lon", "CORNER_LL_LON_PRODUCT"]
+  }
+}
