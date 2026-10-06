@@ -19,7 +19,7 @@ Satellite product ZIPs / folders
        create_footprints.py
               |
               v
-      GIS image footprints
+      GIS footprints (vector)
 ```
 
 ## Tools
